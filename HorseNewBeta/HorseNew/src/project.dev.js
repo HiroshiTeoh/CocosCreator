@@ -651,7 +651,7 @@ cc._RFpush(module, '104cdXWrFhJpK8B1KMWxImA', 'Waiting');
 var com = require('CommonUserIfo');
 var dis = require('CommonUserDis');
 var horsearray = new Array();
-// 测试一下git仓库
+
 cc.Class({
     'extends': cc.Component,
     properties: {
