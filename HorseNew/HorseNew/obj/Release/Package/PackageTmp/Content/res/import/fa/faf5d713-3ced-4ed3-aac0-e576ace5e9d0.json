@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Mask",
+    "texture": "00d1a4ae-5c38-475e-bc2f-37892e3c01b2",
+    "rect": [
+      1285,
+      1,
+      560,
+      920
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      560,
+      920
+    ]
+  }
+}

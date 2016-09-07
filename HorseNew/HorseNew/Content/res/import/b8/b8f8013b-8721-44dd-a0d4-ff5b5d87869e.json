@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Input box code",
+    "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+    "rect": [
+      1,
+      1,
+      512,
+      400
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      512,
+      400
+    ]
+  }
+}

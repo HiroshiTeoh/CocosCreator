@@ -1,0 +1,171 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" />
+    <link href="~/Content/Projection.css" type="text/css" rel="StyleSheet" />
+    <link href="~/Content/front/font/iconfont.css" type="text/css" rel="StyleSheet" />
+
+    <title>大屏幕等待</title>
+
+</head>
+<body>
+
+    <div class="end"><img src="~/Content/image/pbackground1.png" alt="终点" /></div>
+
+    <div class="main">
+        <div class="content">
+            <div id="mask">
+                <div class="b">
+                    <div class="title">黄晓明&杨颖 婚礼摇一摇赛马</div>
+                    <i id="guanbi" class="guanbi-icon iconfont icon-guanbi" style="font-size: 30px "></i>
+                </div>
+                <div class="details">
+                    <div class="carouself"><img src="~/Content/image/pimg.jpg" /></div>
+                    <div class="des">
+                        <div class="shake"><img src="~/Content/image/pshake.png" /></div>
+                        <div class="code"><img src="~/Content/image/code.jpg" /></div>
+                        <div class="wait">WAITING</div>
+                        <div class="rank">000</div>
+                        <div class="aside">已有<span style="color :#f8e71c">000</span>位好友准备就绪</div>
+                        <div class="buton">
+                            <!--<i id="shezhi" class="shezhi-icon iconfont icon-shezhi" style="font-size: 35px;"></i>-->
+                            <i id="kaishi" class="kaishi-icon iconfont icon-kaishi" style="font-size: 35px;"></i>
+                            <i id="shuaxin" class="shuaxin-icon iconfont icon-shuaxin" style="font-size: 35px;"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            @*<div class="person">
+                <div class="ranking"><img src="~/Content/image/T001gold.png" alt="第一名" align:"left" /></div>
+                <div class="head"><img src="~/Content/image/head1.png" alt="头像" /></div>
+                <div class="name">游意思保洁小妹</div>
+                <div class="horse"><img src="~/Content/image/Running Horse.png" alt="马儿" /></div>
+            </div>
+
+            <div class="person">
+                <div class="ranking"><img src="~/Content/image/T002silver.png" alt="第二名" /></div>
+                <div class="head"><img src="~/Content/image/head2.png" alt="头像" /></div>
+                <div class="name">艾幕…哩哩</div>
+                <div class="horse"><img src="~/Content/image/Running Horse.png" alt="马儿" /></div>
+            </div>
+
+            <div class="person">
+                <div class="ranking"><img src="~/Content/image/T003bronze.png" alt="第三名" /></div>
+                <div class="head"><img src="~/Content/image/head3.png" alt="头像" /></div>
+                <div class="name">心艾小舞</div>
+                <div class="horse"><img src="~/Content/image/Running Horse.png" alt="马儿" /></div>
+            </div>
+
+            <div class="person">
+                <div class="ranking">004</div>
+                <div class="head"><img src="~/Content/image/head4.png" alt="头像" /></div>
+                <div class="name">野心萝莉人</div>
+                <div class="horse"><img src="~/Content/image/Running Horse.png" alt="马儿" /></div>
+            </div>
+
+            <div class="person">
+                <div class="ranking">005</div>
+                <div class="head"><img src="~/Content/image/head5.png" alt="头像" /></div>
+                <div class="name">飞儿女人</div>
+                <div class="horse"><img src="~/Content/image/Running Horse.png" alt="马儿" /></div>
+            </div>*@
+
+        </div>
+
+
+
+    </div>
+    <script src="~/Content/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#guanbi').click(function () {
+                $('#mask').css({display:'none'})
+            });
+            $('#shuaxin').click(function () {
+                location.reload();
+            });
+        })
+
+        //websocket
+        var conn = new WebSocket('ws://192.168.0.25:2200');
+        //连接模式
+        conn.onopen = function (event) {
+            conn.send("Open")
+        };
+        $('#kaishi').click(function () {
+            conn.send("BeginGame")
+        });
+        //消息模式
+        conn.onmessage = function (event) {
+            var data = event.data.split("/");
+            var length = event.data.split("/").length / 2 - 1;
+
+            if (data[0] == 0) {
+                $(".person").remove();
+                //先进行清理所有用户再进行加载数组里的数据
+                for (var i = 0; i < length; i++) {
+                    var str = "<div class='person'>" +
+                        "<div class='head'><img src='/Content/image/head1.png' alt='头像' /></div>" +
+                        "<div class='name'>" + data[i * 2 + 2].substr(0, 8) + "</div>" +
+                        "<div class='horse'><img src='/Content/image/Running Horse.png' alt='马儿' /></div>" +
+                    "</div>";
+                    $(".main").append(str);
+                }
+                $(".rank").html("00" + length);
+                $(".aside span").html("00" + length);
+
+            } else if (data[0] == 1) {
+                $(".person").remove();
+                for (var i = 0; i < length; i++) {
+                    var str = "<div class='person'>" +
+                        "<div class='head'><img src='/Content/image/head1.png' alt='头像' /></div>" +
+                        "<div class='name'>" + data[i * 2 + 2].substr(0, 8) + "</div>" +
+                        "<div class='horse'><img src='/Content/image/Running Horse.png' alt='马儿' /></div>" +
+                    "</div>";
+                    $(".main").append(str);
+                }
+                $(".rank").html("00" + length);
+                $(".aside span").html("00" + length);
+
+            } else if (data[0] == 2) {
+                //开局隐藏遮罩
+                $("#mask").hide();
+
+                $(".person").remove();
+                for (var i = 0; i < length; i++) {
+                    var str = "<div class='person' >" +
+                        "<div class='head'><img src='/Content/image/head1.png' alt='头像' /></div>" +
+                        "<div class='name'>" + data[i * 2 + 2].substr(0, 8) + "</div>" +
+                        "<div class='horse'><img src='/Content/image/Running Horse.png' alt='马儿' /></div>" +
+                    "</div>";
+                    $(".main").append(str)
+                }
+                $(".horse").css({ position: "absolute", left: "0px" });
+                $(".head").css({ position: "absolute", left: "100px" });
+                $(".name").css({ position: "absolute", left: "200px" });
+            }
+            //判断手机进行摇动进行相应的位移
+            else if (data[0] == 3) {
+                alert("Shake")
+                $(".horse").style.left += "20px";
+            }
+        }
+        //关闭模式
+        conn.onclose = wsClose;
+        function wsClose(event) {
+            alert("wsClose");
+        }
+    </script>
+
+</body>
+</html>
+

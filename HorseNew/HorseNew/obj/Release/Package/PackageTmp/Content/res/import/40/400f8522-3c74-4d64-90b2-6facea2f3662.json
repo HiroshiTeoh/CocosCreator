@@ -1,0 +1,151 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Input box code",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1,
+        1,
+        512,
+        400
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        512,
+        400
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "code",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        545,
+        681,
+        248,
+        248
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        248,
+        248
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "send",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1099,
+        527,
+        80,
+        90
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        80,
+        90
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Preservation",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1053,
+        635,
+        100,
+        90
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        100,
+        90
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Input box address",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        515,
+        217,
+        512,
+        124
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        512,
+        124
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Set up Button",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1095,
+        811,
+        60,
+        60
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Enter Button",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        795,
+        681,
+        280,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        280,
+        98
+      ],
+      "rotated": 1
+    }
+  }
+]

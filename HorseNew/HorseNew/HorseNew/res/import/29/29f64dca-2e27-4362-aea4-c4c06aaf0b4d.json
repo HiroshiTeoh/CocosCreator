@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "跑马2",
+    "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+    "rect": [
+      1,
+      693,
+      316,
+      280
+    ],
+    "offset": [
+      0,
+      2
+    ],
+    "originalSize": [
+      316,
+      284
+    ],
+    "rotated": 1
+  }
+}

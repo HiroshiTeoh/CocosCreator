@@ -1,0 +1,29 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "HorseOver",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "HorseOver",
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 66,
+      "height": 72
+    },
+    "_components": [
+      {
+        "__type__": "cc.Sprite",
+        "node": {
+          "__id__": 1
+        },
+        "_spriteFrame": {
+          "__uuid__": "71a21f12-56d3-46ba-b787-c250ef875e72"
+        }
+      }
+    ]
+  }
+]

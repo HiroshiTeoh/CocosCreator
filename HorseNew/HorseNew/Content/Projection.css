@@ -1,0 +1,141 @@
+﻿body {
+    background-image: url("image/ProjectionbackgroundG.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin: auto;
+}
+
+#mask {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 88%;
+    height: 85%;
+    padding: 10px;
+    border-radius: 21px;
+    background-image: url("image/pmask.png");
+    background-size:1800px   840px;
+
+}
+
+.b {
+    /*float: right;*/
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack:justify;
+}
+
+.title {
+    /*display: inline;*/
+    font-family: 'Adobe Heiti Std';
+    font-size: 40px;
+    color: #ffffff;
+    /*position: fixed;*/
+    top: 7%;
+    left: 6%;
+    /*line-height:1px;*/
+    
+}
+
+.details {
+    width: 95%;
+    height: 73%;
+    bottom: 10%;
+    position: absolute;
+    margin-top:0;
+
+}
+
+#mask .details .carouself img {
+    width: 72%;
+    height: 100%;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+}
+#mask .details img{
+    display:block;
+    margin:2px auto;
+}
+.guanbi-icon {
+    color: #ffffff;
+}
+.buton{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+.shezhi-icon, .kaishi-icon, .shuaxin-icon {
+    color: #08dd20;
+    margin:0 10px;
+}
+
+.des {
+    width: 25%;
+    height: 100%;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+}
+#mask .shake img{
+    padding:1px;
+        
+}
+.wait, .rank {
+    font-family: 'Adobe Heiti Std';
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.aside {
+    font-family: 'Adobe Heiti Std';
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.end {
+    position: absolute;
+    right: 15px;
+    margin: auto;
+    padding: 0;
+}
+
+.person {
+    width: 350px;
+    height: 45px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+.ranking {
+    /*display: inline;*/
+    font-family: 'Adobe Heiti Std';
+    font-size: 20px;
+    color: #ffffff;
+    width: 35px;
+}
+
+.head {
+    /*display: inline;*/
+    width: 56px;
+    padding: 0 10px;
+}
+
+.name {
+    /*display: inline;*/
+    font-family: 'Adobe Heiti Std';
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 10px;
+    width: 140px;
+}
+
+.horse {
+    /*display: inline;*/
+    padding: 0 10px;
+    width: 45px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Go Button ",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        883,
+        535,
+        214,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        214,
+        98
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Invite friends",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        859,
+        443,
+        120,
+        90
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        120,
+        90
+      ]
+    }
+  }
+]

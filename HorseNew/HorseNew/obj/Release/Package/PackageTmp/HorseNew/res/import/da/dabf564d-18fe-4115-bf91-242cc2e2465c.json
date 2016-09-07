@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Running Horse1",
+      "texture": "62641cf5-a17b-4e21-9efe-08dec3cf0529",
+      "rect": [
+        0,
+        0,
+        66,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        66,
+        72
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "HorseOver",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "HorseOver",
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 66,
+        "height": 72
+      },
+      "_components": [
+        {
+          "__id__": 2
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 1
+      },
+      "_spriteFrame": {
+        "__uuid__": "670861f0-be75-4d5e-8e27-b3185447ff1e"
+      }
+    }
+  ]
+]

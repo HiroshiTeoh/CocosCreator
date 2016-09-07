@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "horseAnimation",
+  "_duration": 0.6833333333333333,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "29f64dca-2e27-4362-aea4-c4c06aaf0b4d"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "2fe53a5d-b956-489d-be78-091ce1adec63"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "29f64dca-2e27-4362-aea4-c4c06aaf0b4d"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

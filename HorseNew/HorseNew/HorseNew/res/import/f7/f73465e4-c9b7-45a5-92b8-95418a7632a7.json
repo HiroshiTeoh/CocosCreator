@@ -1,0 +1,107 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "list-top",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        515,
+        117,
+        640,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        640,
+        98
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "horseLOGO",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1,
+        403,
+        428,
+        288
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        428,
+        288
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "help",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1095,
+        873,
+        60,
+        60
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "READY GO",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        431,
+        443,
+        426,
+        130
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        426,
+        130
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "PlayButton",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        431,
+        575,
+        450,
+        104
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        450,
+        104
+      ]
+    }
+  }
+]

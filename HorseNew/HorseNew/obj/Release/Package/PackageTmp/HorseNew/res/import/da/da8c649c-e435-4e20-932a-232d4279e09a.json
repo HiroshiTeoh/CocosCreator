@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "horseTOP",
+    "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+    "rect": [
+      515,
+      1,
+      640,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      640,
+      114
+    ]
+  }
+}

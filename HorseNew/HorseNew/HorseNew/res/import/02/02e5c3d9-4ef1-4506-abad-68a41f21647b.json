@@ -1,0 +1,445 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "again Button",
+      "texture": "1568901f-d367-4047-bc47-687a0b054533",
+      "rect": [
+        0,
+        0,
+        214,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        214,
+        98
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "MoreGame",
+      "scene": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "MoreGame",
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 11
+        },
+        {
+          "__id__": 13
+        },
+        {
+          "__id__": 18
+        },
+        {
+          "__id__": 20
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 320,
+        "y": 568
+      },
+      "_id": "5e023QMSCVCTbDjclaTpnqb",
+      "_components": [
+        {
+          "__id__": 22
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "backgroundLoad",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      },
+      "_components": [
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 3
+      },
+      "_spriteFrame": {
+        "__uuid__": "5dff2428-89af-4f1a-beaf-fcbc03869884"
+      }
+    },
+    {
+      "__type__": "cc.Widget",
+      "node": {
+        "__id__": 3
+      },
+      "isAlignOnce": false,
+      "_alignFlags": 45,
+      "_originalWidth": 640,
+      "_originalHeight": 1136
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "backgroundLoad1",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 96,
+        "height": 1136
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 260
+      },
+      "_components": [
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 8
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 6
+      },
+      "_spriteFrame": {
+        "__uuid__": "a43c4ed4-0aed-4e9b-a2dd-d505e9a92985"
+      }
+    },
+    {
+      "__type__": "cc.Widget",
+      "node": {
+        "__id__": 6
+      },
+      "isAlignOnce": false,
+      "_alignFlags": 37,
+      "_left": 532,
+      "_right": 12,
+      "_originalWidth": 96,
+      "_originalHeight": 1136
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Shake",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 156,
+        "height": 158
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -1
+      },
+      "_components": [
+        {
+          "__id__": 10
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 9
+      },
+      "_spriteFrame": {
+        "__uuid__": "b1d2f408-358b-462d-acc6-5c2848c5f2f2"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Ranking",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 114,
+        "height": 40
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -390
+      },
+      "_components": [
+        {
+          "__id__": 12
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 11
+      },
+      "_useOriginalSize": false,
+      "_fontSize": 38,
+      "_N$file": {
+        "__uuid__": "54ade395-c234-4637-a3c0-0f031a4309fa"
+      },
+      "_isSystemFontUsed": false,
+      "_N$string": "第三名",
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "again Button",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 214,
+        "height": 98
+      },
+      "_children": [
+        {
+          "__id__": 14
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -473
+      },
+      "_components": [
+        {
+          "__id__": 16
+        },
+        {
+          "__id__": 17
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "L-again",
+      "_opacity": 0,
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_parent": {
+        "__id__": 13
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 214,
+        "height": 98
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 1.1368683772161603e-13
+      },
+      "_components": [
+        {
+          "__id__": 15
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 14
+      },
+      "_useOriginalSize": false,
+      "_fontSize": 53,
+      "_enableWrapText": false,
+      "_N$string": "again",
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1,
+      "_N$overflow": 1
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 13
+      },
+      "_spriteFrame": {
+        "__uuid__": "bfb95093-de8b-4ba7-b444-37d07140bb0c"
+      },
+      "_type": 1,
+      "_sizeMode": 0
+    },
+    {
+      "__type__": "cc.Button",
+      "node": {
+        "__id__": 13
+      },
+      "transition": 2,
+      "pressedColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "pressedSprite": {
+        "__uuid__": "bfb95093-de8b-4ba7-b444-37d07140bb0c"
+      },
+      "hoverSprite": {
+        "__uuid__": "bfb95093-de8b-4ba7-b444-37d07140bb0c"
+      },
+      "_N$normalColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "_N$disabledColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "_N$normalSprite": {
+        "__uuid__": "bfb95093-de8b-4ba7-b444-37d07140bb0c"
+      },
+      "_N$disabledSprite": {
+        "__uuid__": "bfb95093-de8b-4ba7-b444-37d07140bb0c"
+      },
+      "_N$target": {
+        "__id__": 13
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ShakeNumber",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 161.48,
+        "height": 100
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -296
+      },
+      "_components": [
+        {
+          "__id__": 19
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 18
+      },
+      "_useOriginalSize": false,
+      "_actualFontSize": 78,
+      "_fontSize": 78,
+      "_lineHeight": 100,
+      "_N$file": {
+        "__uuid__": "09f92282-ac27-4c1c-81d9-60ad68c10ced"
+      },
+      "_isSystemFontUsed": false,
+      "_N$string": "290",
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "GAME OVER",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 486.47,
+        "height": 100
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "y": -163
+      },
+      "_components": [
+        {
+          "__id__": 21
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Label",
+      "node": {
+        "__id__": 20
+      },
+      "_useOriginalSize": false,
+      "_actualFontSize": 78,
+      "_fontSize": 78,
+      "_lineHeight": 100,
+      "_N$file": {
+        "__uuid__": "09f92282-ac27-4c1c-81d9-60ad68c10ced"
+      },
+      "_isSystemFontUsed": false,
+      "_N$string": "GAME OVER",
+      "_N$horizontalAlign": 1,
+      "_N$verticalAlign": 1
+    },
+    {
+      "__type__": "cc.Canvas",
+      "node": {
+        "__id__": 2
+      },
+      "_designResolution": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      }
+    }
+  ]
+]

@@ -1,0 +1,141 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>游戏首页</title>
+    <link href="/Content/css/gameindex.css" rel="stylesheet" type="text/css" />
+
+    @*<script type="text/javascript">
+        function AutoScroll(obj) {
+            $(obj).find(".content-info.content-title").animate({
+                marginTop: "-25px"
+            }, 500, function () {
+                $(this).css({ marginTop: "0px" }).find("p:first").appendTo(this);
+            });
+        }
+        $(document).ready(function () {
+            var myar = setInterval('AutoScroll(".content-info")', 1000);
+            //当鼠标放上去的时候，滚动停止，鼠标离开的时候滚动开始
+            $(".content-info").hover(function () { clearInterval(myar); }, function () { myar = setInterval('AutoScroll(".content-info")', 1000) });
+        });
+
+    </script>*@
+</head>
+<body>
+    <div class="top">
+        <div class="top-img">
+            <img src="/Content/images/181784978409902973.png" />
+        </div>
+        <div class="top-input">
+            <center>
+                <input id="code" type="text" onblur="javascript:getvalue();" placeholder="输入口令快速参加游戏" onfocus="this.select()" onmouseover="this.style.borderColor='yellow'" onmouseout="this.style.borderColor=''" />
+            </center>
+        </div>
+
+        <div class="btn-wrap">
+            @*//获取到用户输入的口令*@
+            @*<a href="javascript:location.href='/HorseNew/Index?Skip='+command"><button class="confirm-btn">确认</button></a>*@
+            <a href="javascript:location.href='/HorseNew/Index?Skip='+command"><button class="confirm-btn">确认</button></a>
+
+        </div>
+
+    </div>
+
+
+    <div class="content-top">
+
+        <div class="content-inprogress">
+            <img src="/Content/images/151800387936390780.jpg" alt="正在进行"
+                 style="height: 45px; width: 50px">
+        </div>
+        <div class="content-info">
+
+            <p class="content-name">
+                ★黄晓明&杨颖 婚礼摇一摇赛马 <span style="color: #FF0000">120</span>人
+            </p>
+
+            <p class="content-detail">
+                <span style="font-size: 10px">★游意思保洁小妹<span style="color: #C0C0C0">刚刚创建</span>李山投资集团年会抽... </span>
+            </p>
+        </div>
+    </div>
+
+    <div class="contents">
+        <div class="content">
+            <div class="content-thumbnail">
+                <img src="/Content/images/709704092182657760.jpg" alt="" style="height: 60px; width: 60px">
+            </div>
+            <div class="content-info">
+                <div class="content-title">
+                    <p class="content-time">
+                        2016-07-12 17:57
+                    </p>
+                    <p class="content-num">
+                        <span class="red">287</span>人在玩
+                    </p>
+                </div>
+                <p class="content-detail">
+                    <span>易南汀 </span><span class="gray">刚刚创建了</span> <span>墨墨宝宝生日派对疯狂赛马 </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="content">
+            <div class="content-thumbnail">
+                <img src="/Content/images/435485296878288596.png" alt="" style="height: 60px; width: 60px">
+            </div>
+            <div class="content-info">
+                <div class=" content-title">
+                    <p class="content-time">
+                        2016-07-12 13:50
+                    </p>
+                    <p class="content-num">
+                        <span class="red">45</span>人在玩
+                    </p>
+                </div>
+                <p class="content-detail">
+                    <span>阿董</span><span class="gray">刚刚创建了</span> <span>
+                        李山投资集团年会抽奖游戏
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <center>
+        <img id="footer-img" src="/Content/images/515877992197441478.jpg" alt="" />
+    </center>
+    <center>
+        <footer style="display:block;">
+            <p>design by: 联线网络科技</p>
+            <p>Contact information: lianxiankeji@example.com</p>
+        </footer>
+        <center>
+            <b>当前时间:</b> <span id="thisTime"></span><br /><br />
+        </center>
+        <form id="form1" name="form1" method="post" action=""></form>
+    </center>
+    <p id="back-to-top">
+        <center>
+            <a href="#top"><span></span>返回顶部</a>
+        </center>
+    </p>
+
+</body>
+</html>
+<script type="text/javascript">
+        var command="";
+        function getvalue() {
+            command = document.getElementById("code").value;
+            if (command.replace(/^ +| +$/g, '') == '') {
+                alert("请先输入正确房间口令")
+            }
+                
+        }
+</script>
+<script src="/Content/gameindex.js" type="text/javascript"></script>

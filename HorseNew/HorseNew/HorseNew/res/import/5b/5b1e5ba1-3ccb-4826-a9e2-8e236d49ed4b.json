@@ -1,0 +1,362 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "Gaming",
+      "scene": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "Gaming",
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 11
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 320,
+        "y": 568
+      },
+      "_id": "23553aOfCdGVqaB6nevbLXQ",
+      "_components": [
+        {
+          "__id__": 13
+        },
+        {
+          "__id__": 14
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "horseSprite",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 313,
+        "height": 277
+      },
+      "_components": [
+        {
+          "__id__": 4
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 3
+      },
+      "_spriteFrame": {
+        "__uuid__": "775346bd-c04e-40e6-b580-1ddd5df1595e"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "backgroundLoad",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      },
+      "_components": [
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 7
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 5
+      },
+      "_spriteFrame": {
+        "__uuid__": "5dff2428-89af-4f1a-beaf-fcbc03869884"
+      }
+    },
+    {
+      "__type__": "cc.Widget",
+      "node": {
+        "__id__": 5
+      },
+      "isAlignOnce": false,
+      "_alignFlags": 45,
+      "_originalWidth": 640,
+      "_originalHeight": 1136
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "backgroundLoad1",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 96,
+        "height": 1136
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": 260
+      },
+      "_components": [
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 10
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 8
+      },
+      "_spriteFrame": {
+        "__uuid__": "a43c4ed4-0aed-4e9b-a2dd-d505e9a92985"
+      }
+    },
+    {
+      "__type__": "cc.Widget",
+      "node": {
+        "__id__": 8
+      },
+      "_alignFlags": 37,
+      "_left": 532,
+      "_right": 12,
+      "_originalWidth": 96,
+      "_originalHeight": 1136
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Shake",
+      "_parent": {
+        "__id__": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 156,
+        "height": 158
+      },
+      "_components": [
+        {
+          "__id__": 12
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 11
+      },
+      "_spriteFrame": {
+        "__uuid__": "b1d2f408-358b-462d-acc6-5c2848c5f2f2"
+      }
+    },
+    {
+      "__type__": "cc.Canvas",
+      "node": {
+        "__id__": 2
+      },
+      "_designResolution": {
+        "__type__": "cc.Size",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "__type__": "9f25dQ4WYJPxaSjNmzQ35KO",
+      "node": {
+        "__id__": 2
+      },
+      "horseSpritePrefab": {
+        "__uuid__": "9118597e-62ba-4a94-a807-99fd2cf4e427"
+      },
+      "horseAudio": {
+        "__uuid__": "307e26df-0815-4230-849a-ffae8c935e9c"
+      },
+      "userIfoPrefab": {
+        "__uuid__": "295f0a7d-c566-4fe5-9853-030991acb0d6"
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "跑马2",
+      "texture": "003b96b2-7d9a-46ae-9a10-5083e8e3ae7c",
+      "rect": [
+        2,
+        2,
+        313,
+        277
+      ],
+      "offset": [
+        0.5,
+        1.5
+      ],
+      "originalSize": [
+        316,
+        284
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "horseSprite",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "horseSprite",
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 80,
+        "height": 80
+      },
+      "_position": {
+        "__type__": "cc.Vec2",
+        "x": -250,
+        "y": -310
+      },
+      "_components": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Sprite",
+      "node": {
+        "__id__": 1
+      },
+      "_spriteFrame": {
+        "__uuid__": "775346bd-c04e-40e6-b580-1ddd5df1595e"
+      },
+      "_sizeMode": 0
+    },
+    {
+      "__type__": "cc.Animation",
+      "node": {
+        "__id__": 1
+      },
+      "_defaultClip": {
+        "__uuid__": "bd8400b9-3ed2-40df-a0a3-58a9a74e27bf"
+      },
+      "_clips": [
+        {
+          "__uuid__": "bd8400b9-3ed2-40df-a0a3-58a9a74e27bf"
+        }
+      ]
+    },
+    {
+      "__type__": "9132bnAbg1PW7IwOCSKHiPk",
+      "node": {
+        "__id__": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "跑马4",
+      "texture": "8356ab56-7fe3-4299-b3a1-f013bce62bb9",
+      "rect": [
+        2,
+        0,
+        257,
+        302
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        260,
+        302
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "horseAnimation",
+    "_duration": 0.6833333333333333,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "775346bd-c04e-40e6-b580-1ddd5df1595e"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "76400499-6b46-4bc4-81f3-c6e35f2cb85c"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "775346bd-c04e-40e6-b580-1ddd5df1595e"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

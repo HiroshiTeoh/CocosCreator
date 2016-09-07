@@ -1,0 +1,66 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Input box",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        515,
+        343,
+        512,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        512,
+        98
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Default image",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1129,
+        217,
+        74,
+        74
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        74,
+        74
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Submit",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1029,
+        217,
+        280,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        280,
+        98
+      ],
+      "rotated": 1
+    }
+  }
+]

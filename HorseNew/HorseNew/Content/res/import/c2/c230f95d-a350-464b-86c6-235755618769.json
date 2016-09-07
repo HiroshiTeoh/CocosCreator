@@ -1,0 +1,304 @@
+[
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "buttons.plist",
+    "_spriteFrames": {
+      "Default image": {
+        "__uuid__": "2ee14a2e-ad92-4e6a-ad2e-500c823df37d"
+      },
+      "Enter Button": {
+        "__uuid__": "18df84b1-2756-4eaf-a160-2b50579d1c4f"
+      },
+      "Go Button ": {
+        "__uuid__": "da0a9d44-5a31-4e4b-b451-cd3ddbbbbb89"
+      },
+      "Input box address": {
+        "__uuid__": "1eec8c37-f626-4f8c-90ae-29c3d66c2a05"
+      },
+      "Input box code": {
+        "__uuid__": "b8f8013b-8721-44dd-a0d4-ff5b5d87869e"
+      },
+      "Input box": {
+        "__uuid__": "a81046e5-bea4-45cb-a3cd-9eb574073e9c"
+      },
+      "Invite friends": {
+        "__uuid__": "ddee4019-5587-4137-88dd-7304cd2118c9"
+      },
+      "Join Button": {
+        "__uuid__": "2fb0acaf-acbe-471d-8e21-1b741443a78a"
+      },
+      "PlayButton": {
+        "__uuid__": "c913ba84-1b01-4fb7-8b32-00cc9e104cb2"
+      },
+      "Preservation": {
+        "__uuid__": "135b1a34-3705-47f8-bb1c-8051d31ebc7a"
+      },
+      "READY GO": {
+        "__uuid__": "789b42b1-1477-4d1d-9d8d-23597ae7c5ce"
+      },
+      "Running Horse1": {
+        "__uuid__": "71a21f12-56d3-46ba-b787-c250ef875e72"
+      },
+      "Running Horse2": {
+        "__uuid__": "32b70292-bb37-45ad-a52b-03a9e6c19c9a"
+      },
+      "Running Horse3": {
+        "__uuid__": "6e2c35d3-57c1-4529-b0bd-83c1e3fc5165"
+      },
+      "Set up Button": {
+        "__uuid__": "2d8ba3bf-584d-41cf-8579-09c8a283ad1d"
+      },
+      "Shake": {
+        "__uuid__": "fab039ed-25ed-47b7-9da4-481f6cda42ab"
+      },
+      "Submit": {
+        "__uuid__": "71ab7e2e-4cf4-40e1-8594-57a409f38457"
+      },
+      "T001gold": {
+        "__uuid__": "cafcd663-ad5e-4172-9d4b-e19e1454fd2e"
+      },
+      "T002silver": {
+        "__uuid__": "9fcdfbe8-861e-416f-99d7-74d94a0ba1b5"
+      },
+      "T003bronze": {
+        "__uuid__": "b9eb0de3-f8c1-4da1-96d3-64d96ce7b1b8"
+      },
+      "again Button": {
+        "__uuid__": "fc828edb-7fa7-4044-8539-9384a26d2552"
+      },
+      "back": {
+        "__uuid__": "311200cd-b7ed-45c2-900e-0b6d757fa57c"
+      },
+      "code": {
+        "__uuid__": "bf479ad0-a54b-4892-8ae5-2cf1237e5474"
+      },
+      "head1": {
+        "__uuid__": "77545139-78b5-43bb-b8ec-f48ec41c89e9"
+      },
+      "head2": {
+        "__uuid__": "cc5ed2fe-6e93-432e-9224-88bf96674818"
+      },
+      "head3": {
+        "__uuid__": "9478792b-c7d1-4b72-b5ab-5801f3c3c071"
+      },
+      "head4": {
+        "__uuid__": "492d6481-6b3f-4500-93c1-e53b0608028d"
+      },
+      "head5": {
+        "__uuid__": "a8006b6b-f797-48f9-afce-a711e9cacc2a"
+      },
+      "help": {
+        "__uuid__": "59cbe67f-d9ae-433f-a0a7-c1230f7ba215"
+      },
+      "horseLOGO": {
+        "__uuid__": "df423c00-1f4c-47ad-88d0-d8b6d9506753"
+      },
+      "horseTOP": {
+        "__uuid__": "da8c649c-e435-4e20-932a-232d4279e09a"
+      },
+      "list-top": {
+        "__uuid__": "3bc01824-ad78-4fec-a7f1-2157f093bb98"
+      },
+      "send": {
+        "__uuid__": "767d3396-6590-4371-8c30-f4e0740c4161"
+      },
+      "跑马2": {
+        "__uuid__": "29f64dca-2e27-4362-aea4-c4c06aaf0b4d"
+      },
+      "跑马4": {
+        "__uuid__": "2fe53a5d-b956-489d-be78-091ce1adec63"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Running Horse3",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1129,
+        293,
+        84,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        84,
+        72
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Running Horse2",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1129,
+        293,
+        84,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        84,
+        72
+      ],
+      "rotated": 1
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "T001gold",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        431,
+        403,
+        40,
+        36
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        36
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "head2",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        619,
+        931,
+        72,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        72,
+        72
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "T002silver",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        473,
+        403,
+        40,
+        36
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        36
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "T003bronze",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1157,
+        63,
+        40,
+        36
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        36
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "head3",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        693,
+        931,
+        72,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        72,
+        72
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "head4",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1129,
+        453,
+        72,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        72,
+        72
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "head5",
+      "texture": "433b10b5-7fe9-44f7-8702-3922ddb0dccf",
+      "rect": [
+        1095,
+        737,
+        72,
+        72
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        72,
+        72
+      ]
+    }
+  }
+]

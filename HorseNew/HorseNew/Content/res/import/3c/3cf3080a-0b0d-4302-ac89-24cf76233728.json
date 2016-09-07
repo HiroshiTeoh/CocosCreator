@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "backgroundLoad1",
+    "texture": "00d1a4ae-5c38-475e-bc2f-37892e3c01b2",
+    "rect": [
+      1,
+      1781,
+      96,
+      1136
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      1136
+    ],
+    "rotated": 1
+  }
+}

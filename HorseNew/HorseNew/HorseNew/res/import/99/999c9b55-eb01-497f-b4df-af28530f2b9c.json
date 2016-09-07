@@ -1,0 +1,44 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "horseTOP",
+      "texture": "0a93ca18-8d67-406c-b8e3-7fce2b8d4e0e",
+      "rect": [
+        0,
+        1,
+        640,
+        113
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        640,
+        114
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Mask",
+      "texture": "53ee8385-aa1d-4c26-8ca9-49b703c55508",
+      "rect": [
+        0,
+        0,
+        560,
+        920
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        560,
+        920
+      ]
+    }
+  }
+]
