@@ -1804,7 +1804,7 @@
       <publishTime>09/06/2016 14:35:45</publishTime>
     </File>
     <File Include="HorseNew/src/project.dev.js">
-      <publishTime>09/07/2016 09:13:22</publishTime>
+      <publishTime>09/08/2016 16:48:50</publishTime>
     </File>
     <File Include="HorseNew/src/project.js">
       <publishTime>08/10/2016 09:48:37</publishTime>
@@ -1825,7 +1825,7 @@
       <publishTime>08/08/2016 17:17:09</publishTime>
     </File>
     <File Include="Views/Game/Hall.cshtml">
-      <publishTime>09/01/2016 09:47:28</publishTime>
+      <publishTime>09/07/2016 14:31:11</publishTime>
     </File>
     <File Include="Views/Game/Index.cshtml">
       <publishTime>08/23/2016 09:07:01</publishTime>

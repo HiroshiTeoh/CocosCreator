@@ -116,6 +116,12 @@ cc.Class({
         },
         winsize: null,
         gameData: null
+
+
+
+
+
+
     },
 
     // use this for initialization
@@ -938,6 +944,9 @@ cc.Class({
                 if (tempLength < 7) {
                     // target.queueArray.push({xPos:Math.ceil(accelEvent.x),yPos:Math.ceil(accelEvent.y),zPos:Math.ceil(accelEvent.z)});
                     target.queueArray.push({ xPos: accelEvent.x, yPos: accelEvent.y, zPos: accelEvent.z });
+                } else {
+                    target.queueArray.splice(0, tempLength);
+                }
 
                     //用来裁剪数组
                     //target.queueArray.splice(6, tempLength - 1);
@@ -959,6 +968,7 @@ cc.Class({
                         //遍历数组进行寻找跑马
                         for (var horse in horsearray) {
                             if (horsearray[horse].sprite.x >= 280) {
+
                                 cc.log(horsearray);
                                 ws.send("temphorse,");
                                 ws.onmessage = function (event) {
@@ -976,13 +986,9 @@ cc.Class({
                                                 self.GameOverMask.node.opacity = 255;
                                                 self.RankLabel.string = "第" + rank + "名";
                                                 self.ScoreLabel.string = Math.floor((horsearray[horse].sprite.x + 280) / 2);
-                                                if (Command == "Admin") {
-                                                    self.MoreBtn.node.opacity = 255;
-                                                    self.MoreBtn.node.on(cc.Node.EventType.TOUCH_START, function (event) {
-                                                        cc.director.loadScene("Public");
-                                                    });
-                                                }
+
                                             }
+
                                         }
                                     }
                                 };
@@ -996,25 +1002,9 @@ cc.Class({
                                 }
                             }
 
-                            //利用通讯端进行结束判断
-                            //ws.send("Rank," + data[1]);
-                            //ws.onmessage = function (event) {
-                            //    var data = event.data.split("/");
-                            //    if (data[0] == "4") {
-                            //        self.GameOverMask.node.opacity = 255;
-                            //        self.RankLabel.string = data[1];
-                            //        self.ScoreLabel.string = "290";
-                            //    }
-
-                            //}
-                            //进行排序
                         }
                     };
-                } else {
-                        target.queueArray.splice(0, tempLength);
-                    }
             }
-
         };
         cc.eventManager.addListener(listener, this.node);
     },
